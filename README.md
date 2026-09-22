@@ -24,3 +24,29 @@ namespace ConsoleApp1
     }
 }
 ```
+---
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Каково значение res после выполнения int a = 5; int res = ++a * 2;? Ответ: res = 12 (префиксный инкремент увеличивает a до 6, затем умножение)
+            int a = 5;
+            int res = ++a * 2;
+
+            Console.WriteLine($"a = {a}");
+            Console.WriteLine($"res = {res}");
+        }
+    }
+}
+
+```
